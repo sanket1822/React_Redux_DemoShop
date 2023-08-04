@@ -11,14 +11,12 @@ function App() {
       <BrowserRouter>   
         <Header/>
           <Routes>
-            <Route path="/" Component={ProductListing}/>
-            <Route path="/products/:productId"  Component={ProductDetail}/>
-            <Route path="*" component={NotFound} />
+            <Route path="/" element={<ProductListing/>}/>
+            <Route path="/products/:productId"  element={<ProductDetail/>}/>
+            <Route path="*" element={<NotFound/>} />
           </Routes>
         <Footer/>
-        </BrowserRouter>
-      
-        
+      </BrowserRouter>     
     </div>
   );
 }

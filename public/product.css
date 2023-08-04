@@ -196,6 +196,24 @@ body{
   }
 
 
+/* Not found */
+.notfound {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+ .notfound h1{
+    font-size: 36px;
+    color: #ff0000; /* Optional: Set a custom color for the heading */
+    margin: 0;
+    padding: 10px;
+  }
+  
+
+
 /* Footer  */
 
 footer{
